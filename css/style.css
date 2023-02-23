@@ -13,21 +13,31 @@ justify-content: space-around;
   ----------*/
   
   header {
+    margin-top: 5px;
+      display: flex;
       position:relative; 
+      justify-content: space-between;
       width: 100%;
       height: 80px;
       font-family: Circular,Helvetica,Arial,sans-serif;
       color: #484848;
       background-color: #fff;
-      border: 1px solid #DCE0E0;
+      border-bottom:1px solid #DCE0E0;
+      padding: 0% 10% 0%;
   }
-  .header-right {
-    float: right;
+  .header-right{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
-  
 .header-right img{
-
-  width: 40px;
+background-color: red;
+  width: 70px;
+  margin-left: 35px;
+}
+.header-right a{
+  font-size: 14px;
 }
 
   a {
@@ -38,6 +48,17 @@ justify-content: space-around;
     font-size: 12px;
   }
 
+.box{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.box p{
+  font-size: 15px;
+}
+.box div{
+  width: 5px;
+}
 
 
   /*---airbnb-logo---*/
@@ -128,7 +149,7 @@ input[type="text"]:focus{
   /* site content*/
   .site-content{
       margin: 50px auto;
-      width: 1340px;
+      width: 1740px;
       height: 1500px;
       font-family: Circular,Helvetica,Arial,sans-serif;
   }
@@ -136,16 +157,29 @@ input[type="text"]:focus{
   /*---logos filtres---*/
   
       .logo2{
-    width: auto;
-    font-size:22px;
-    justify-content: center;
-    align-items: center;
+    width: 1400px;
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 70px;
+    align-items: center;
       }
   /*---gallery-prices---*/
   
+  .box{
+    font-size:22px;
+    align-self: auto;
+    color: #484848;
+}
+#fleche{
+  display: flex;
+  align-items:flex-start;
+}
+  #fle{
+    width: 26px;
+    background-image: linear-gradient(to right, transparent , grey);
+  }
   .prices{
       width: 953px;
       height: 330px;
