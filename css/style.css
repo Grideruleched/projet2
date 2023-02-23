@@ -64,11 +64,13 @@ align-items: center;
   /*---airbnb-logo---*/
   
       .logo {
-          padding: 15px 20px;
+          padding: 15px 40px;
           float: left;
+          
       }
           .logo svg {
               width: 100px;
+              
           }
   
 
@@ -178,7 +180,6 @@ input[type="text"]:focus{
 }
   #fle{
     width: 26px;
-    background-image: linear-gradient(to right, transparent , grey);
   }
   .prices{
       width: 953px;
