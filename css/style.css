@@ -66,11 +66,9 @@ align-items: center;
       .logo {
           padding: 15px 40px;
           float: left;
-          
       }
           .logo svg {
               width: 100px;
-              
           }
   
 
@@ -163,8 +161,8 @@ input[type="text"]:focus{
     display: flex;
     flex-direction: row;
     margin: auto;
-    margin-top: 50px;
-    margin-left: 70px;
+    margin-top: 20px;
+    margin-left: 35px;
     align-items: center;
       }
   /*---gallery-prices---*/
@@ -174,10 +172,7 @@ input[type="text"]:focus{
     align-self: auto;
     color: #484848;
 }
-#fleche{
-  display: flex;
-  align-items:flex-start;
-}
+
   #fle{
     width: 26px;
   }
@@ -193,7 +188,8 @@ input[type="text"]:focus{
           margin-left: 5px;
       }
       .img{
-          margin: 10px 5px 75px 15px;
+          margin: -25px -15px 75px 25px;
+          margin-left: 50px;
       }
       .img img{
           width: 321px;
